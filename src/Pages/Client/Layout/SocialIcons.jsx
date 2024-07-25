@@ -42,7 +42,7 @@ function SocialIcons() {
     }, []);
 
     return (
-        <div className={`fixed bottom-0 flex flex-col justify-center items-center ${i18n.language === "en" ? "right-5" : "left-5"}`} >
+        <div className={`fixed bottom-0 hidden lg:flex flex-col justify-center items-center ${i18n.language === "en" ? "right-5" : "left-5"}`} >
             <div className="relative h-[100px] w-full">
                 <p className={`transform rotate-90   text-md uppercase w-[430%] top-0 right-[-2.35rem] absolute text-center ${iconColorClass}`}>
                     @ The Act Hub

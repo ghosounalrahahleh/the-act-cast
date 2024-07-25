@@ -19,7 +19,7 @@ i18n
       escapeValue: false,
     },
     backend: {
-      loadPath: `${process.env.REACT_APP_PUBLIC_PATH}/public/Locals/{{lng}}/{{ns}}.json`,
+      loadPath: `Locals/{{lng}}/{{ns}}.json`,
     },
     ns: [
       "home",

@@ -28,7 +28,7 @@ function ClientRoutes() {
     const link = document.createElement('link');
     link.rel = 'stylesheet';
     link.id = 'lang-css';
-    link.href = `${process.env.REACT_APP_PUBLIC_PATH}/css/${i18n.language}/app.css`;
+    link.href = `/css/${i18n.language}/app.css`;
 
     document.head.appendChild(link);
 
