@@ -19,7 +19,7 @@ i18n
       escapeValue: false,
     },
     backend: {
-      loadPath: `${import.meta.env.VITE_PUBLIC_PATH}/Locals/{{lng}}/{{ns}}.json`,
+      loadPath: `/the-act-cast/Locals/{{lng}}/{{ns}}.json`,
     },
     ns: [
       "home",
