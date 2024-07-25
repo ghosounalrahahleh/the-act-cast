@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: "/the-act-cast/",
   define: {
-    'process.env.REACT_APP_PUBLIC_PATH': JSON.stringify(process.env.REACT_APP_PUBLIC_PATH),
+    'process.env.REACT_APP_PUBLIC_PATH': JSON.stringify(process.env.REACT_APP_REPO_PUBLIC_PATH),
   },
 })
