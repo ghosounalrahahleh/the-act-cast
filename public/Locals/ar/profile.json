@@ -1,0 +1,98 @@
+{
+    "welcome": "أهلاً وسهلاً",
+    "profile_image": "تغيير صورة  ",
+    "producer": {
+        "tabs": {
+            "tab_1": "الأعمال السابقة",
+            "tab_2": "طلب ممثلين"
+        },
+        "add_new_work": "إضافة عمل جديد",
+        "delete": "حذف",
+        "weight": "الوزن",
+        "height": "الطول",
+        "gender": "الجنس",
+        "male": "ذكر",
+        "female": "أنثى",
+        "phobia": "ليس لديه هذا الرهاب",
+        "phobia_placeholder": "رهاب...",
+        "disease": "ليس لديه هذا المرض المزمن",
+        "disease_placeholder": "مرض مزمن...",
+        "disability": "ليس لديه هذه الإعاقة",
+        "disability_placeholder": "إعاقة...",
+        "disorder": "ليس لديه هذا الاضطراب النفسي",
+        "disorder_placeholder": "اضطراب نفسي...",
+        "skills": "المهارات",
+        "skills_placeholder": "اختر المهارات...",
+        "language": "اللغة المفضلة",
+        "language_placeholder": "اللغة...",
+        "driver": "هل هو سائق؟",
+        "driver_placeholder": "اختر إجابتك...",
+        "swimmer": "هل يعرف السباحة؟",
+        "smoker": "هل هو مدخن؟",
+        "scars": "هل لديه ندوب؟",
+        "yes": "نعم",
+        "no": "لا",
+        "btn": "إرسال الطلب  "
+    },
+    "actor": {
+        "tabs": {
+            "tab_1": "الوسائط",
+            "tab_2": "المظهر الجسدي",
+            "tab_3": "نمط الحياة",
+            "tab_4": "المعلومات الطبية"
+        },
+        "media": {
+            "label_1": "صورة قريبة أمامية",
+            "placeholder_1": "تحميل صورة قريبة أمامية",
+            "label_2": "صورة من الجانب الأيمن",
+            "placeholder_2": "تحميل صورة من الجانب الأيمن",
+            "label_3": "صورة من الجانب الأيسر",
+            "placeholder_3": "تحميل صورة من الجانب الأيسر",
+            "label_4": "صورة متوسطة",
+            "placeholder_4": "تحميل صورة متوسطة",
+            "label_5": "صورة عريضة",
+            "placeholder_5": "تحميل صورة عريضة",
+            "label_6": "فيديو تقديمي",
+            "placeholder_6": "تحميل فيديو تقديمي"
+        },
+        "appearance": {
+            "height": "الطول",
+            "weight": "الوزن"
+        },
+        "lifestyle": {
+            "label_1": "مهاراتك",
+            "placeholder_1": "اختر مهاراتك...",
+            "label_2": "ما هي اللغة التي تتحدثها؟",
+            "placeholder_2": "أدرج اللغات التي تتحدثها...",
+            "label_3": "ماذا تقود؟",
+            "placeholder_3": "اختر إجابتك...",
+            "label_4": "هل تعرف كيف تسبح؟",
+            "label_5": "هل تدخن؟",
+            "placeholder_5": "تحميل صورة عريضة",
+            "label_6": "لماذا تريد التمثيل؟",
+            "placeholder_6": "اكتب إجابتك...",
+            "label_7": "هل سبق لك التمثيل من قبل؟",
+            "label_8": "اسم العمل",
+            "placeholder_8": "اسم العمل...",
+            "label_9": "نبذة عن تجربتك في العمل",
+            "placeholder_9": "عن تجربتك في العمل..."
+        },
+        "medical": {
+            "disease": "مرض مزمن",
+            "disease_placeholder": "مرض مزمن...",
+            "disability": "الإعاقات",
+            "disability_placeholder": "الإعاقات...",
+            "disorder": "الاضطرابات النفسية",
+            "disorder_placeholder": "اضطراب نفسي...",
+            "phobia": "الرهاب",
+            "phobia_placeholder": "رهاب...",
+            "scars": "هل لديك أي ندوب؟"
+        },
+        "btn": "حفظ",
+        "yes": "نعم",
+        "no": "لا"
+    },
+    "messages": {
+        "required": "هذا الحقل مطلوب"
+    }
+}

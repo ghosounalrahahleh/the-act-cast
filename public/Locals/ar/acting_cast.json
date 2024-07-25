@@ -1,0 +1,21 @@
+{
+    "section1": {
+        "title": "Welcome to The Act Cast ",
+        "description": "The Ultimate Destination For Aspiring Actors And Seasoned Professionals Alike."
+    },
+    "section2": {
+        "title": "Why Do We Exist?",
+        "description": "“We are a group of actors who have struggled in our own acting journeys. We're here to enhance and improve actors' skills and opportunities throughout their careers. Our mission begins with creating comprehensive profiles for our actors, including headshots and introduction videos. We connect them with work opportunities and provide professional acting workshops to ensure our casting agency features only the most talented and skilled actors. Through our monthly activities, we aim to foster a close-knit community of actors, supporting each other and growing together.”"
+    },
+    "section3": {
+        "title": "What Do We Bring To The Table?",
+        "sub_title_1": "Professional Acting Profiles",
+        "sub_desc_1": "Detailed and professional profiles for each actor.",
+        "sub_title_2": "Acting Workshops",
+        "sub_desc_2": "Comprehensive workshops to hone your acting skills. Monthly Interactive Activities: Engaging activities every month to foster growth and connection.",
+        "sub_title_3": "Acting Opportunities",
+        "sub_desc_3": "Access to a variety of acting opportunities.",
+        "sub_title_4": "Community of Actors",
+        "sub_desc_4": "A supportive and vibrant community of fellow actors."
+    }
+}

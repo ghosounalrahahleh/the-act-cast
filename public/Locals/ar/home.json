@@ -1,0 +1,29 @@
+{
+    "header": {
+        "title": "“أفضل القصص هي تلك التي لم تتألق بعد”"
+    },
+    "behind_our_scenes": {
+        "title": "خلف الكواليس",
+        "side_title": "خلف الكواليس",
+        "description": "we are passionate about connecting filmmakers with the perfect talent to bring their stories to life. Our innovative platform streamlines the casting process, making it easier for directors, producers, and casting agents to find exceptional actors from around the globe.",
+        "btn": "المزيد عنا"
+    },
+    "our_work": {
+        "title": "تسليط الضوء على أعمالنا",
+        "btn": "عرض المزيد من عملنا"
+    },
+    "act_hub": {
+        "btn": "اكتشف مركز العمل"
+    },
+    "contact_us": {
+        "title": "ابق على تواصل معنا",
+        "min_title": "اتصل بنا",
+        "msg_placeholder": "رسالتك...",
+        "email_placeholder": "بريدك الالكتروني...",
+        "btn": "أرسل"
+    },
+    "messages": {
+        "required": "هذا الحقل مطلوب",
+        "email": "عنوان البريد الإلكتروني غير صالح!"
+    }
+}
