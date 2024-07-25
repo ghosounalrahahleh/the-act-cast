@@ -10,7 +10,7 @@ i18n
   .init({
     supportedLngs: ["en", "ar"],
     fallbackLng: "en",
-    lang:'en',
+    lang: "en",
     debug: false,
     react: {
       useSuspense: false,
@@ -19,7 +19,7 @@ i18n
       escapeValue: false,
     },
     backend: {
-      loadPath: process.env.REACT_APP_PUBLIC_PATH + "Locals/{{lng}}/{{ns}}.json",
+      loadPath: `${process.env.REACT_APP_PUBLIC_PATH}/Locals/{{lng}}/{{ns}}.json`,
     },
     ns: [
       "home",
@@ -29,7 +29,7 @@ i18n
       "auth",
       "our_work",
       "profile",
-    ], 
+    ],
     defaultNS: "home",
     detection: {
       order: ["queryString", "cookie", "localStorage", "navigator"],
