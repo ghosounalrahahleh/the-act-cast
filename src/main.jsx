@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import { QueryClient, QueryClientProvider } from 'react-query';
 
-import 'primereact/resources/themes/saga-blue/theme.css'; // Choose your theme
-import 'primereact/resources/primereact.min.css'; // PrimeReact core CSS
-import 'primeicons/primeicons.css'; // PrimeIcons
+import 'primereact/resources/themes/saga-blue/theme.css'; 
+import 'primereact/resources/primereact.min.css';  
+import 'primeicons/primeicons.css'; 
 import './index.css'
 
 import i18n from './Config/i18n';
