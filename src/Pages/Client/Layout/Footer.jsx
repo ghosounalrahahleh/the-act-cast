@@ -15,7 +15,7 @@ function Footer() {
   return (
     <footer className='flex flex-col xs:flex-row items-start bg-primary px-3 md:px-10 py-10 text-white'>
       <div className='w-full xs:w-3/12 md:w-4/12 flex xs:flex-col xs:justify-center items-center xs:items-start md:pl-5 mb-10 xs:mb-5'>
-        <img src={logo} alt="The Act Cast" className='w-[35%] xs:w-[75%] md:w-[35%] xs:mb-10 mr-5' />
+        <img src={logo} alt="The Act Cast" className={`w-[35%] xs:w-[75%] md:w-[35%] xs:mb-10 ${i18n.language === "en" ? "mr-5" :"ml-5"} mr-5`} />
         <div className="flex justify-between items-center text-white text-xl">
           <FaInstagram className='mx-1 lg:mx-3' />
           <FaLinkedinIn className='mx-1 lg:mx-3' />
