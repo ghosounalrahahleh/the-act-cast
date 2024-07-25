@@ -72,6 +72,10 @@ const TabMenu = () => {
     }, [location.search]);
 
     useEffect(() => {
+        setActiveTab(userType === "ACTOR" ? 2 : 0);
+    }, [userType]);
+
+    useEffect(() => {
         setProfileTab(tabs);
         setActiveTab(userType === "ACTOR" ? 2 : 0);
         return () => setProfileTab("");
@@ -98,7 +102,7 @@ const TabMenu = () => {
 
     const actorItems = [
         {
-             items: [
+            items: [
                 {
                     label: t('actor.tabs.tab_1'),
                     command: () => {
@@ -129,7 +133,7 @@ const TabMenu = () => {
 
     const producerItems = [
         {
-             items: [
+            items: [
                 {
                     label: t('producer.tabs.tab_1'),
                     command: () => {
