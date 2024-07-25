@@ -1,0 +1,29 @@
+{
+    "header": {
+        "title": "“THE BEST STORIES ARE THOSE WHO DIDN’T SHINE YET”"
+    },
+    "behind_our_scenes": {
+        "title": "BEHIND OUR SCENES",
+        "side_title": "BEHIND OUR SCENES",
+        "description": "we are passionate about connecting filmmakers with the perfect talent to bring their stories to life. Our innovative platform streamlines the casting process, making it easier for directors, producers, and casting agents to find exceptional actors from around the globe.",
+        "btn": "MORE ABOUT US"
+    },
+    "our_work": {
+        "title": "Spotlight on Our Work",
+        "btn": "VIEW MORE OF OUR WORK"
+    },
+    "act_hub": {
+        "btn": "EXPLORE THE ACT HUB"
+    },
+    "contact_us": {
+        "title": "Get in Touch with Us",
+        "min_title": "CONTACT US",
+        "msg_placeholder": "Your message...",
+        "email_placeholder": "Your email...",
+        "btn": "SEND"
+    },
+    "messages": {
+        "required": "This field is required",
+        "email": "Invalid Email Address!"
+    }
+}

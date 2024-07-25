@@ -1,0 +1,18 @@
+{
+    "title": "Careers",
+    "join_us": "Come Join Us",
+    "sub_title":"Become an intern, join our family",
+    "full_name": "Full name...",
+    "phone": "Phone number...",
+    "email": "Email address...",
+    "address": "Address...",
+    "upload": "Upload resume...",
+    "availability": "Availability...",
+    "terms": "By checking this box, I agree to all The Act Cast Terms & Conditions. ",
+    "internship_terms": "By checking this box, I agree to all the internship program Terms & Conditions. ",
+    "btn": "Apply",
+    "messages": {
+        "required": "This field is required",
+        "email": "Invalid Email Address!"
+     }
+}

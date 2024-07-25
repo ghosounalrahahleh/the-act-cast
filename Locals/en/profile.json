@@ -1,0 +1,98 @@
+{
+    "welcome": "Welcome",
+    "profile_image": "Change Profile Image",
+    "producer": {
+        "tabs": {
+            "tab_1": "Previous Work",
+            "tab_2": "Request Actors"
+        },
+        "add_new_work": "Add New Work",
+        "delete": "Delete",
+        "weight": "Weight",
+        "height": "Height",
+        "gender": "Gender",
+        "male": "Male",
+        "female": "Female",
+        "phobia": "Doesn't Have This Phobia",
+        "phobia_placeholder": "Phobia...",
+        "disease": "Doesn't Have This Chronic Disease",
+        "disease_placeholder": "Chronic disease...",
+        "disability": "Doesn't Have This Disability",
+        "disability_placeholder": "Disability...",
+        "disorder": "Doesn't Have This Psychological Disorder",
+        "disorder_placeholder": "Psychological disorder...",
+        "skills": "Skills",
+        "skills_placeholder": "Choose skills...",
+        "language": "Preferred Language",
+        "language_placeholder": "Language...",
+        "driver": "Driver?",
+        "driver_placeholder": "Choose your answer...",
+        "swimmer": "Swimmer?",
+        "smoker": "Smoker?",
+        "scars": "Have Scars?",
+        "yes": "yes",
+        "no": "no",
+        "btn": "Send Request To Admin"
+    },
+    "actor": {
+        "tabs": {
+            "tab_1": "Media",
+            "tab_2": "Physical Appearance",
+            "tab_3": "Lifestyle",
+            "tab_4": "Medical Information"
+        },
+        "media": {
+            "label_1": "Front Closeup Pic",
+            "placeholder_1": "Upload front closeup pic",
+            "label_2": "Right Profile Pic",
+            "placeholder_2": "Upload right profile pic",
+            "label_3": "Left Profile Pic",
+            "placeholder_3": "Upload left profile pic",
+            "label_4": "Medium Pic",
+            "placeholder_4": "Upload medium pic",
+            "label_5": "Wide Pic",
+            "placeholder_5": "Upload wide pic",
+            "label_6": "Introduction Video",
+            "placeholder_6": "Upload introduction video"
+        },
+        "appearance": {
+            "height": "Height",
+            "weight": "Weight"
+        },
+        "lifestyle": {
+            "label_1": "Your Skills",
+            "placeholder_1": "Choose your skills...",
+            "label_2": "What Language Do You Speak?",
+            "placeholder_2": "List the languages you speak...",
+            "label_3": "What Do You Drive?",
+            "placeholder_3": "Choose your answer...",
+            "label_4": "Do You Know How to Swim?",
+            "label_5": "Do You Smoke?",
+            "placeholder_5": "Upload wide pic",
+            "label_6": "Why Do You Want To Act?",
+            "placeholder_6": "Type your answer...",
+            "label_7": "Have You Ever Acted Before?",
+            "label_8": "Name Of The Work",
+            "placeholder_8": "Name of the work...",
+            "label_9": "A Brief About Your Work Experience",
+            "placeholder_9": "About your work experience..."
+        },
+        "medical": {
+            "disease": "Chronic Disease",
+            "disease_placeholder": "Chronic disease...",
+            "disability": "Disabilities",
+            "disability_placeholder": "Disabilities...",
+            "disorder": "Psychological Disorders",
+            "disorder_placeholder": "Psychological Disorder...",
+            "phobia": "Phobia",
+            "phobia_placeholder": "Phobia...",
+            "scars": "Do You Have Any Scars?"
+        },
+        "btn": "Save",
+        "yes": "Yes",
+        "no": "No"
+    },
+    "messages": {
+        "required": "This field is required"
+    }
+}

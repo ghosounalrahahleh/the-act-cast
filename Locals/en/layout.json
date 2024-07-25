@@ -1,0 +1,28 @@
+{
+    "menu": {
+        "sign_up": "Sign Up",
+        "side_title_part_1": "DISCOVER THE ACT CAST WORLD ",
+        "side_title_part_2": "",
+        "tab_1": "Why Do We Exist?",
+        "tab_2": "What We Bring To The Table",
+        "tab_3": "Our Previous Work",
+        "tab_4": "Our Acting Workshop",
+        "tab_5": "The Act Hub",
+        "tab_6": "Careers",
+        "tab_7": "Contact Us"
+    },
+    "footer": {
+        "site_map": "Site Map",
+        "join_us": "Join Us",
+        "about_us": "About Us",
+        "links": "Links",
+        "our_work": "Our Work",
+        "contact_us": "Contact Us",
+        "act_hub": "The Act Hub",
+        "careers": "Careers",
+        "acting_workshop": "Acting Workshop",
+        "terms": "Terms & Conditions",
+        "policy": "Privacy Policy",
+        "login": "Login"
+    }
+}

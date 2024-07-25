@@ -1,0 +1,515 @@
+@import url("https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Truculenta:opsz,wght@12..72,100..900&display=swap");
+@import url("./animation.css");
+
+:root {
+  --main_color: #232220;
+  --light_main_color: #2222204d;
+  --secondary: #3b4031;
+  --main_color_shadow: #313030;
+  --semi_white: #f6fdf4cc;
+
+  --main_font: "Truculenta", sans-serif;
+  --secondary_font: "Playfair Display", serif;
+}
+
+body {
+  direction: rtl;
+}
+
+body * {
+  font-family: var(--main_font);
+}
+
+.side-spaces {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+#password > div > span {
+  right: 95% !important;
+}
+.ml-2 {
+  margin-right: 0.5rem !important;
+}
+.secondary-font {
+  font-family: var(--secondary_font);
+}
+
+.menu-bg {
+  background: linear-gradient(
+    -180deg,
+    var(--main_color) 0%,
+    rgba(0, 7, 15, 0) 100%
+  );
+}
+
+.bg-primary {
+  background-color: var(--main_color);
+}
+
+.text-primary {
+  color: var(--main_color);
+}
+
+.text-secondary {
+  color: var(--secondary);
+}
+
+.text-light-primary {
+  color: var(--light_main_color);
+}
+
+.bg-light-primary {
+  background-color: var(--light_main_color);
+}
+
+.border-light-primary {
+  border: 2px solid var(--light_main_color);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+.bg-semi-white {
+  background-color: var(--semi_white);
+  backdrop-filter: blur(8px);
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  color: white;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  border: 2px solid var(--secondary);
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.btn-secondary:hover {
+  background-color: transparent;
+  color: var(--secondary);
+}
+
+.primary-bg-hover {
+  background-color: transparent;
+  color: var(--secondary);
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 2px solid var(--secondary);
+}
+
+.primary-bg-hover:hover {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.btn-white {
+  background-color: transparent;
+  color: var(--main_color);
+  border: 2px solid var(--main_color);
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.btn-white:hover {
+  background-color: var(--main_color);
+  color: white;
+}
+
+.btn-primary {
+  background-color: var(--main_color);
+  color: white;
+  border: 2px solid var(--main_color);
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: var(--main_color);
+}
+
+.white-bg-hover {
+  background-color: transparent;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.white-bg-hover:hover {
+  background-color: white;
+  color: var(--main_color);
+}
+
+.p-icon-field,
+.p-password-input {
+  width: 100% !important;
+}
+
+.p-inputtext.p-component {
+  padding: 0.5rem;
+}
+
+.p-radiobutton .p-radiobutton-box,
+.p-radiobutton .p-radiobutton-input,
+.p-checkbox .p-checkbox-box {
+  border-radius: 5px !important;
+  background-color: transparent;
+  border: 2px solid var(--light_main_color);
+}
+
+.p-radiobutton-icon {
+  border-radius: 2.5px !important;
+  background: var(--main_color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* Icon color */
+}
+
+.p-radiobutton-icon::before {
+  content: "";
+  top: 5px;
+  width: 50%;
+  height: 100%;
+  background: transparent;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  transform: rotate(45deg);
+  opacity: 1;
+  margin-bottom: 4px;
+}
+
+.p-radiobutton input[type="radio"]:checked + .p-radiobutton-icon::before {
+  opacity: 1;
+}
+
+.p-radiobutton.p-highlight .p-radiobutton-box {
+  border-color: var(--main_color);
+  background: var(--main_color);
+}
+
+.p-checkbox.p-highlight .p-checkbox-box {
+  border-color: var(--main_color);
+  background: var(--main_color);
+}
+
+.p-inputtext:enabled:focus,
+.p-inputwrapper-focus {
+  box-shadow: 0 0 0 0.1rem var(--main_color_shadow);
+}
+
+.p-dropdown-label.p-inputtext.p-placeholder {
+  padding: 8px;
+}
+
+.studio_bg {
+  background-image: url("../../images/studio.jfif");
+  background-position: center;
+}
+
+.acting_cast_section1 {
+  background-image: url("../../images/actingCast/section1.jfif");
+  background-position: center 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.acting_cast_section2 {
+  background-image: url("../../images/actingCast/section2.jfif");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-positioning {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section3_1 {
+  background-image: url("../../images/actingCast/section3_1.jfif");
+  background-position: center 30%;
+}
+
+.section3_2 {
+  background-image: url("../../images/actingCast/section3_2.jfif");
+  background-position: center 31%;
+}
+
+.section3_3 {
+  background-image: url("../../images/actingCast/section3_3.jfif");
+  background-position: center 60%;
+}
+
+.section3_4 {
+  background-image: url("../../images/actingCast/section3_4.jfif");
+  background-position: center 65%;
+}
+
+.home-section-2 {
+  background-image: url("../../images/home/home_section1.jpg");
+  background-position: center;
+}
+
+.home-section-3 {
+  background-image: url("../../images/home/home_section3.jfif");
+  background-position: center 50%;
+  background-size: cover;
+}
+
+.sub_desc_shadow {
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+input,
+.p-inputwrapper,
+textarea {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px var(--main_color_shadow);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 6px;
+  background-color: #f5f5f5;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px var(--secondary);
+  background-color: var(--secondary);
+}
+
+.poster-overlay {
+  background: linear-gradient(
+    -180deg,
+    rgba(35, 34, 32, 0) -6.18%,
+    rgba(35, 34, 32, 0.6) 58.59%,
+    rgba(35, 34, 32, 0) 123.36%
+  );
+}
+
+.menu-sidebar .p-sidebar-header {
+  display: none;
+}
+.menu-sidebar .p-sidebar-content {
+  display: flex;
+}
+.menu-slider {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  width: 70%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+
+.menu-slider.opacity-100 {
+  opacity: 1;
+}
+
+.p-fileupload.p-fileupload-basic {
+  border: 2px dashed var(--light_main_color);
+  border-radius: 10px;
+}
+
+.p-button.p-fileupload-choose {
+  width: 100%;
+  background-color: transparent;
+  color: var(--light_main_color);
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.p-button.p-fileupload-choose .p-icon {
+  display: none;
+}
+
+.p-fileupload-choose .p-button-label {
+  display: flex;
+  justify-content: right;
+}
+
+.image-container img {
+  box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.profile-header {
+  background-image: url("../../images/profile/profile_bg.jfif");
+  background-position: center;
+}
+
+.menu-container {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-tab {
+  position: relative;
+  cursor: pointer;
+  color: rgba(246, 253, 244, 0.3);
+  font-weight: 300;
+  transition: all 0.3s ease;
+}
+
+.menu-tab.active {
+  color: white;
+  font-weight: 700;
+}
+
+.menu-tab:not(.active):hover {
+  color: white;
+}
+
+.menu-indicator {
+  position: absolute;
+  bottom: -10px;
+  width: 40px;
+  height: 20px;
+  background: var(--secondary);
+  border-radius: 0 0 25px 25px;
+  transition: right 0.3s ease, width 0.3s ease;
+  transform: translateX(0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.profile-image-container {
+  position: absolute;
+  bottom: -50%;
+  z-index: 200;
+  right: 60px;
+  padding: 5px;
+  background-color: var(--main_color);
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+
+.title-container,
+.profile-image-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(100%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.profile-image-overlay {
+  flex-direction: column;
+  background-color: rgba(246, 253, 244, 0.52);
+  backdrop-filter: blur(1px);
+}
+
+.gallery-image:hover .title-container,
+.profile-image-container:hover .profile-image-overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.custom-file-upload .p-button.p-fileupload-choose .p-button-label {
+  display: none;
+}
+.custom-file-upload.p-fileupload.p-fileupload-basic {
+  border: none;
+  color: white;
+}
+.profile-form div .p-field label {
+  font-weight: bold;
+}
+.actor-media-input .p-fileupload-choose .p-button-label {
+  justify-content: center;
+  color: var(--secondary);
+}
+
+.sm-profile-menu {
+  display: none;
+  color: white;
+  margin: 10px 10px;
+  font-size: 1rem;
+}
+
+/* lg */
+@media (max-width: 1025px) {
+  .profile-image-container {
+    bottom: -43%;
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .profile-image-container {
+    right: 20px;
+  }
+
+  .side-spaces {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .sm-profile-menu {
+    display: block;
+  }
+}
+
+/* sm */
+@media (max-width: 641px) {
+  .box {
+    width: 50px;
+    height: 50px;
+  }
+
+  .box-wrapper {
+    width: 65px;
+    height: 65px;
+  }
+}
+
+@media (max-width: 450px) {
+  .profile-image-container {
+    bottom: -35%;
+    width: 120px;
+    height: 120px;
+  }
+}
