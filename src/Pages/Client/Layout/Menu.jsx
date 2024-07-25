@@ -34,7 +34,7 @@ export default function Menu() {
     const menuTabs = [
         {
             title: t("menu.tab_1"),
-            path: "/"
+            path: "/the-act-cast"
         },
         {
             title: t("menu.tab_2"),
@@ -82,10 +82,10 @@ export default function Menu() {
     }, [location.search]);
 
     const handleContactUsClick = () => {
-        if (location.pathname === '/') {
+        if (location.pathname === '/the-act-cast') {
             scrollToContactUs();
         } else {
-            navigate('/?section=contact');
+            navigate('/the-act-cast?section=contact');
         }
         setVisible(false)
     };
@@ -137,7 +137,7 @@ export default function Menu() {
             </Sidebar>
 
             <div className="xs:w-1/12">
-                <Link to={"/"}>
+                <Link to={"/the-act-cast"}>
                     <img src={logo} alt="The Act Cast" className='w-[70px] ' />
                 </Link>
             </div>

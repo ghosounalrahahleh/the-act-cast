@@ -7,7 +7,7 @@ function ClientRoutes() {
   return (
     <AdminGlobalContextProvider >
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/the-act-cast" element={<Home />} />
       </Routes>
     </AdminGlobalContextProvider>
   )
