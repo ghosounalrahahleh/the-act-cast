@@ -35,7 +35,7 @@ export default function Tutorial() {
 
     return (
         <Layout>
-            <section className='flex flex-col side-spaces pt-8 md:pt-32'>
+            <section className='flex flex-col side-spaces pt-16 md:pt-32'>
                 <div className="flex flex-col items-center md:w-[75%] lg:[45%] xl:w-[35%] mx-auto">
                     <h1 className="mb-8 text-center secondary-font text-xl md:text-4xl">{t("title")}</h1>
                     <p className="h1 text-center px-5">{t("description")}</p>
