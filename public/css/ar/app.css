@@ -25,6 +25,7 @@ body * {
   padding-left: 60px;
   padding-right: 60px;
 }
+
 #password > div > span {
   right: 95% !important;
 }
@@ -507,6 +508,10 @@ textarea {
 }
 
 @media (max-width: 450px) {
+  #password > div > span {
+    right: 92% !important;
+  }
+  
   .profile-image-container {
     bottom: -35%;
     width: 120px;
